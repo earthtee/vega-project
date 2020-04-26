@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "My interactive chart",
+  "width": 860,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/earthtee/vega-project/master/inf_%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%97%E0%B8%A1.csv"
+  },
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "dname",
+      "type": "ordinal",
+      "title": "เขต"
+    },
+    "y": {
+      "field": "type",
+      "type": "ordinal",
+      "title": "ประเภทชุมชน"
+    },
+    "color": {
+      "field": "num_house",
+      "type": "quantitative",
+      "title": "จำนวนบ้านเรือน"
+    },
+    "tooltip": [
+      {
+        "field": "dname",
+        "type": "ordinal",
+        "title": "เขต"
+      },
+      {
+        "field": "type",
+        "type": "ordinal",
+        "title": "ประเภทชุมชน"
+      },
+      {
+        "field": "num_house",
+        "type": "quantitative",
+        "title": "จำนวนบ้าน"
+      }
+    ]
+  },
+  "config": {}
+}
