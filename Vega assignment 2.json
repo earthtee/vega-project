@@ -6,6 +6,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/earthtee/vega-project/master/inf_%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%97%E0%B8%A1.csv"
   },
+  "title": "ข้อมูลชุมชนในกรุงเทพมหานคร",
   "transform": [
     {
       "filter": {
