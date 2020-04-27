@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "ข้อมูลชุมชนในกรุงเทพมหานคร",
+  "description": "My interactive chart",
   "width": 1000,
   "height": 8000,
   "data": {
